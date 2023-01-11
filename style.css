@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Quicksand:wght@400;500;700&family=Rubik+Bubbles&display=swap'); 
+
+body{
+    font-family: 'Rubik Bubbles', cursive;
+    text-align: center;
+    background-image: url('/assets/img/bg-happybirthday.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 25%;
+}
+
+.icons > img{
+    width: 20%;
+}
+
+.icon1 {
+        align-self: flex-end;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        
+    }
+    .bounce1 {
+        animation-name: bounce1;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce1 {
+        0%   { transform: translateY(100); }
+        50%  { transform: translateY(-1010px); }
+        100% { transform: translateY(0); }
+    }
+.icon2 {
+        align-self: flex-end;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        animation-delay: 2s;
+        
+    }
+    .bounce2 {
+        animation-name: bounce2;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce2 {
+        0%   { transform: translateY(100); }
+        50%  { transform: translateY(-1010px); }
+        100% { transform: translateY(0); }
+    }
+.icon3 {
+        align-self: flex-end;
+        animation-duration: 22s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        animation-delay: 2s;
+        
+    }
+    .bounce3 {
+        animation-name: bounce3;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce3 {
+        0%   { transform: translateY(100); }
+        50%  { transform: translateY(-1010px); }
+        100% { transform: translateY(0); }
+    }
+.icon4 {
+        align-self: flex-end;
+        animation-duration: 18s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        animation-delay: 2s;
+        
+    }
+    .bounce4 {
+        animation-name: bounce4;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce4 {
+        0%   { transform: translateY(100); }
+        50%  { transform: translateY(-1150px); }
+        100% { transform: translateY(0); }
+    }
+.icon5 {
+        align-self: flex-end;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        animation-delay: 2s;
+        
+    }
+    .bounce5 {
+        animation-name: bounce5;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce5 {
+        0%   { transform: translateY(100); }
+        50%  { transform: translateY(-1150px); }
+        100% { transform: translateY(0); }
+    }
+
+ul{
+    margin-top: 100px;
+}
+
+li{
+    text-align: center;
+    font-size: 8em;
+    list-style: none;
+    display: inline-block;
+}
+
+.space{
+    padding-left: 50px;
+    
+}
+
+
+.text1{
+    color: #FF9494;
+}
+.text2{
+    color: #FFD1D1;
+}
+.text3{
+    color: #FF8DC7;
+}
+.text4{
+    color: #354259;
+}
+
+.text5{
+    color: #B8E8FC;
+}
+.text6{
+    color: #F2D388;
+}
+.text7{
+    color: #6E85B7;
+}
+.text8{
+    color: #7D9D9C;
+}
+.text9{
+    color: #90C8AC;
+}
+.text10{
+    color: #C4DFAA;
+}
+.text11{
+    color: #C9BBCF;
+}
+.text12{
+    color: #898AA6;
+}
+.text13{
+    color: #9A86A4;
+}
+.text14{
+    color: #E5CB9F;
+}
+/* bounce text 1 */
+.box1 {
+        align-self: flex-end;
+        animation-duration: 3.1s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+
+/* bounce text 2 */
+.box2 {
+        align-self: flex-end;
+        animation-duration: 3.3s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-2 {
+        animation-name: bounce-2;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 3 */
+.box3 {
+        align-self: flex-end;
+        animation-duration: 3.5s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-3 {
+        animation-name: bounce-3;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-3 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 4 */
+.box4 {
+        align-self: flex-end;
+        animation-duration: 3.7s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-4 {
+        animation-name: bounce-4;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-4 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 5 */
+.box5 {
+        align-self: flex-end;
+        animation-duration: 3.9s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-5 {
+        animation-name: bounce-5;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-5 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 6 */
+.box6 {
+        align-self: flex-end;
+        animation-duration: 4.2s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-6 {
+        animation-name: bounce-6;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-6 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 7 */
+.box7 {
+        align-self: flex-end;
+        animation-duration: 4.4s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-7 {
+        animation-name: bounce-7;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-7 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 8 */
+.box8 {
+        align-self: flex-end;
+        animation-duration: 4.6s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-8 {
+        animation-name: bounce-8;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-8 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 9 */
+.box9 {
+        align-self: flex-end;
+        animation-duration: 4.8s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-9 {
+        animation-name: bounce-9;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-9 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 10 */
+.box10 {
+        align-self: flex-end;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-10 {
+        animation-name: bounce-10;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-10 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 11 */
+.box11 {
+        align-self: flex-end;
+        animation-duration: 5.2s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-11 {
+        animation-name: bounce-11;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-11 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 12 */
+.box12 {
+        align-self: flex-end;
+        animation-duration: 5.4s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-12 {
+        animation-name: bounce-12;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-12 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 13 */
+.box13 {
+        align-self: flex-end;
+        animation-duration: 5.6s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-13 {
+        animation-name: bounce-13;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-13 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+/* bounce text 14 */
+.box14 {
+        align-self: flex-end;
+        animation-duration: 5.8s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounce-14 {
+        animation-name: bounce-14;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-14 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+/* end */
+
+
+
+/* running text happy birthday */
+
+.animation-run-text{
+    color:#FF8AAE;
+    font-size: 1em;
+    padding-left: 24px;
+}
+/* end */
+
+/* running text */
+.run-text1 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+    }
+.run-text2 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 0.5s;
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+
+    }
+.run-text3 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+
+    }
+.run-text4 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 1.5s;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+
+    }
+.run-text5 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+
+    }
+.run-text6 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 2.5s;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+
+    }
+.run-text7 {
+        align-self: flex-end;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+        
+        transform-origin: bottom;
+        
+    }
+    .bounces {
+        animation-name: bounces;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounces {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-800px); }
+        100% { transform: translateY(0); }
+
+    }
+    /* end */
+
+
+    /* running text */
+.run-tex{
+    font-size: 40px;
+    background-color: #F8F4EA;
+    color: #D89216;
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+}
+
+    /* end */
+.age{
+    margin-top: -1000px;
+    color: #E80F88;
+    font-size: 24px;
+}
+
+    

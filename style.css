@@ -3,7 +3,7 @@
 body{
     font-family: 'Rubik Bubbles', cursive;
     text-align: center;
-    background-image: url('/assets/img/bg-happybirthday.png');
+    background-image: url('./assets/img/bg-happybirthday.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
